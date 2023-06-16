@@ -1,1 +1,1 @@
-This is a README for a intro to C coding language
+Readme file for starting C programming in the shell
