@@ -1,41 +1,39 @@
 #include "main.h"
 
 /**
- * times_table - multplication tables using loops
- *
- * Return: no return
+ * times_table - prints multiples tile 9
+ * Return: Always empty
  */
+
 void times_table(void)
 {
-	int i, j, x, y, z;
+	int x, y, z, i, j;
 
-	for (i = 0; i <= 9; i++)
+	for (x = 0; x <= 9; x++)
 	{
-		for (j = 0; j <= 9; j++)
+		for (y = 0; y <= 9; y++)
 		{
-			x = i * j;
-			if (x > 9)
+			z = x * y;
+			if (z > 9)
 			{
-				y = x % 10;
-				z = (x - y) / 10;
+				i = z % 10;
+				j = (z - i) / 10;
 				_putchar(44);
 				_putchar(32);
-				_putchar(z + '0');
-				_putchar(y + '0');
+				_putchar(j + '0');
+				_putchar(i + '0');
 			}
 			else
 			{
-				if (j != 0)
+				if (y != 0)
 				{
 					_putchar(44);
 					_putchar(32);
 					_putchar(32);
 				}
-				_putchar(x + '0');
+			_putchar(z + '0');
 			}
 		}
-	_putchar('\n');
+		_putchar('\n');
 	}
 }
-
-
