@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - Entry point
+ * print_alphabet - Makes and Prints the alphabet
  * Description: "Use function to print alphabet in c"
  * Return: Always 0 (Success)
  */
