@@ -1,12 +1,13 @@
 #include "main.h"
 #include <stdlib.h>
 #include <stdio.h>
+
 /**
  * string_nconcat - function that concatenats 2 strings
  * @s1: input 1 string to be combined
  * @s2: input2 string to be combined
  * @n: int input for bytes
- * Returns: returns combined string
+ * Return: combined string
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
