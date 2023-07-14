@@ -32,7 +32,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	{
 		if (y <= i)
 			comb_ch[y] = s1[y];
-		if (y >= i && y < x - 1)
+		if (y >= i && y < x)
 			comb_ch[y] = s2[y - i];
 		y++;
 	}
