@@ -2,8 +2,6 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
-#include <string.h>
-#include <string.h>
 
 /**
  * get_op_func - a pointer of a function
@@ -20,15 +18,14 @@ int (*get_op_func(char *s))(int, int)
 	{"%", op_mod},
 	{NULL, NULL}
 	};
-	int i;
+	int i = 0;
 
-	for (i = 0; i < 5; i++)
+	while (ops[i].op != NULL)
 	{
-		if (strcmp(s, ops[i].op) == 0)
-		{
+		if (strcmp(ops[i].op, s) == 0)
 			return (ops[i].f);
-		}
+		i++;
 	}
-	return (0);
+return (NULL);
 }
 
