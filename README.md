@@ -1,1 +1,1 @@
-Readme file for starting C programming in the shell
+Readme file for starting C programming and using shell
