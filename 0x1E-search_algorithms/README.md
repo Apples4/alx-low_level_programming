@@ -1,0 +1,1 @@
+This repo is about search algorithms and their time and space complexity and using big 'O' notation. Big notation will be used to describle the relationship of the Number of inputs and the algorithms space and time complexity.
